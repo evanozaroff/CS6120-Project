@@ -1,4 +1,5 @@
-# Evaluation of Large Language Model Sentence Embeddings with SentEval, (CS6120 Spring 2023) Amritanj Ayush, Evan Ozaroff, Parisa Torshizi
+# Evaluation of Large Language Model Sentence Embeddings with SentEval 
+(CS6120 Spring 2023) Amritanj Ayush, Evan Ozaroff, Parisa Torshizi
 
 ## Overview
 The generation of sentence embeddings is essential for a range NLP tasks including semantic textual similarity, semantic search, and paraphrase mining, and is reliant on the model’s ability to extract the unique semantic information of a given sentence. The quality of sentence embeddings can be determined by extrinsic evaluation, which considers the effectiveness of the embeddings on downstream tasks, or intrinsic evaluation, which utilizes pre-determined ground truth labels. Our research compares the performance of numerous large language models such as BERT and GPT-2 on intrinsic probing tasks implemented by the SentEval library. Our analysis found that the BERT family of models outperformed other pre-trained language models such as MPNet and GPT-2 on the SentEval intrinsic probing tasks for sentence embeddings, with the base BERT model performing best.
