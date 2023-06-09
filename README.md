@@ -12,7 +12,9 @@ We compare the quality of  sentence embeddings produced by a family of BERT tran
 
 ## Results
 Prior to evaluating our models performance on the SentEval probing tasks, we perform a qualitative analysis of our sentence embeddings using the SentEval datasets. We investigate the models’ ability to encode linguistic information in sentence embeddings by observing the t-SNE projections of two models, BERT and MPNet. 
-![Picture2](https://github.com/evanozaroff/CS6120-Project/assets/31548066/e75caa86-c1a8-4bca-b424-40156fc9d07f)
+![Picture2_smaller](https://github.com/evanozaroff/CS6120-Project/assets/31548066/e7ff30a8-edd1-4135-8204-752a0b7fe2d2)
+<!-- 
+![Picture2](https://github.com/evanozaroff/CS6120-Project/assets/31548066/e75caa86-c1a8-4bca-b424-40156fc9d07f) -->
 The above figure displays the comparison of t-SNE projections for BERT and MPNet on two SentEval datasets, *Sentence Length* and *Tense*. Already we can make inferences on these models' varying ability to capture linguistic information in their embeddings. Both models seem to cluster past and present classes well in the Tense projection space, however, separation appears cleaner in the projection of the BERT embeddings. This may suggest that BERT sentence embeddings more effectively capture information regarding tense when compared to MPNet embeddings. Projections of the embeddings for Sentence Length do not exhibit the same clustering behavior. This may indicate that neither BERT nor MPNet sentence embeddings capture sentence length effectively. 
 
 
